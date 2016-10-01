@@ -1,0 +1,32 @@
+/* Add your CSS below */
+
+/* Example: adding a background color to the HTML body */
+body {
+  	/* #ccc is shorthand HEX for a light grey */
+ 	background: #ccc;
+}
+header {
+	text-align: center;
+
+
+
+}
+
+ul {
+	padding: 10px;
+    background: rgba(0,0,0,0.5);
+
+}
+/* listed items    */
+li {
+	display: inline;
+
+}
+section {
+	padding: 0px 20px 0px 20px;
+
+
+}
+p {
+	padding: 0px 20px 0px 20px;
+}
