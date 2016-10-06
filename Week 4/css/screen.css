@@ -3,7 +3,7 @@
 /* Example: adding a background color to the HTML body */
 body {
   	/* #ccc is shorthand HEX for a light grey */
- 	background: #ccc;
+ 	background: white;
 }
 header {
 	text-align: center;
@@ -11,15 +11,27 @@ header {
 
 
 }
-
+ /* unordered list */
 ul {
-	padding: 10px;
-    background: rgba(0,0,0,0.5);
+	padding: 15px 10px 15px 10px;
+    background: lightgrey;
 
 }
 /* listed items    */
 li {
+	padding: 5px 10px 5px 10px;
 	display: inline;
+
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;;
+	text-align: center;
+	color: blue;
+	font-weight: bold; 
+	font-weight: 900;
+
+	background: pink;
+	border: groove;
+	border-color: green;
+
 
 }
 section {
