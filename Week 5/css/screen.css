@@ -11,11 +11,21 @@ body {
 }
 
 section {
-	padding-left: 15px;
+	padding-left: 20px;
+}
+
+p{
+	padding-left: 20px;
 }
 
 
 .space  {
 
-	color: pink;
+	color: blue;
+}
+#additional_info {
+	background-color: yellow;
+}
+#strike_all {
+	text-decoration: line-through;
 }
