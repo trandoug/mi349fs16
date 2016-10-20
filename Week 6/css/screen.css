@@ -1,0 +1,89 @@
+/* Add your CSS below */
+
+/* Example: adding a background color to the HTML body */
+body {
+  /* #ccc is shorthand HEX for a light grey 
+
+
+  ID IS WITH THE #
+  CLASS WITH THE . */
+  background: #b8c1d1;
+  padding: 0px 120px 0px 120px;
+  margin: 0px 40px 40px 40px;
+
+}
+
+section {
+	border-radius: 10px;
+	background: linear-gradient(white, #93b1e2);
+	padding: 20px;
+	border-width: 20px;
+	border-style: solid;
+	border-color: #487ac4;
+
+}
+article {
+
+}
+
+p{
+	padding-left: 20px;
+	font-size: 18px;
+
+
+
+}
+
+h2 {
+	text-align: center;
+
+	border-radius: 10px;
+	background: #c9ddfc;
+	padding: 20px;
+
+	border-width: 5px;
+	border-style: solid;
+	border-color: #487ac4;
+}
+h1 {
+	font-size: 34px;
+	text-align: center;
+
+	border-radius: 10px;
+	background: #c9ddfc;
+	padding: 20px;
+
+	border-width: 5px;
+	border-style: solid;
+	border-color: #487ac4;
+}
+img {
+    display: block;
+    margin: auto;
+    width: 20%;
+
+    border-radius: 10px;
+    background: rgba(0, 66, 255, 0.3);
+    padding: 10px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.ingrediants {
+	background: navy;
+}
+.note {
+	border-radius: 10px;
+	font-style: italic;
+	text-align: center;
+	background: #c6d8f2;
+
+	border-width: 5px;
+	border-style: solid;
+	border-color: #487ac4;
+
+	box-shadow: 10px 10px 5px grey;
+
+}
+
+
+
