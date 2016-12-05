@@ -1,10 +1,7 @@
-/* Add your CSS below */
 
-/* Example: adding a background color to the HTML body */
-body {
-  /* #ccc is shorthand HEX for a light grey */
-  background: #ccc;
 
+
+header {
 
 }
 
@@ -25,5 +22,13 @@ li {
 ul {
 	padding: 15px 10px 15px 10px;
     background: black;
+
+}
+body {
+  /* #ccc is shorthand HEX for a light grey */
+  background: #ccc;
+}
+.body div {
+	background: pink;
 
 }
