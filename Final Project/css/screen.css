@@ -28,7 +28,55 @@ body {
   /* #ccc is shorthand HEX for a light grey */
   background: #ccc;
 }
-.body div {
+
+
+
+ /*is is everything i need for the body */
+.wrappper {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.body section {
 	background: pink;
 
 }
+
+
+.body h1 {
+
+
+	background: red;
+}
+
+
+aside {
+    padding: 1em;
+    background: pink;
+    margin: 10px; 
+
+    display: flex;
+    flex: 1;
+
+
+}
+.body aside {
+    padding: 1em;
+    background: #ddd;
+    margin: 10px; 
+
+
+    flex: 1;
+
+
+}
+
+.body section {
+    padding: 1em;
+    background: green;
+    margin: 10px; 
+
+
+    flex: 3;
+}
+
