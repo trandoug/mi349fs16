@@ -5,11 +5,7 @@ header {
 
 }
 
-/*
-nav {
-	text-align: center;
-}
-*/
+
 
 li {
 	padding: 5px 10px 5px 10px;
@@ -29,54 +25,149 @@ body {
   background: #ccc;
 }
 
-
+h3 {
+	color: rgb(211, 228, 255);
+}
+.left-side h3 {
+	padding-left: 60px;
+	color: rgb(211, 228, 255);
+}
+.right-side h3 {
+	text-align: center;
+}
 
  /*is is everything i need for the body */
-.wrappper {
-	display: flex;
-	flex-flow: row wrap;
+
+/* z order specifies stack order  */ 
+#content {
+	width:100%;
+	padding: 0;
+	position: relative;
+	z-index: 1; 
 }
 
-.body section {
-	background: pink;
+.mid-body {
+	width:100%; 
+	/*opacioty */
+	background: rgba(14, 14, 15, .60) ; 
+	padding:5px 20px;
+}
 
+.main {
+	width: 980px;
+	padding: 0;
+	margin: 0 auto;
+	font-size: 25;
+
+}
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 980px;
+}
+.wrapper {
+	width:100%;
+	position: relative;
+	/* hides overflow */
+	overflow: hidden;
 }
 
 
-.body h1 {
+.mid-left-body {
+	width: 300px;
+	display: inline;
+	float: left;
+	position: relative;
+	margin: 10px;
+}
 
+.mid-mid-body {
+	width: 100%;
+	background: blue;
+}
+.background {
+	background-image: url("../images/background.jpg");
+	background-position: center;
+	background-size: cover;
+	
+}
+.inner-box{
+	width: 100%;
+		background: rgba(14, 14, 15, .60) ; 
+	/*background: white;*/
 
-	background: red;
+}
+.padding {
+	padding: 30px 0px 30px;
+}
+.another-container {
+	margin
+}
+.sidebyside {
+	width: 980px;
+}
+
+.container .left-side {
+	width:570px;
+	margin-left: 10px;
+}
+.container .right-side {
+	width: 330px;
+	margin-right:0;
+}
+
+.left-side {
+	display: inline;
+	float: left;
+	position: relative;
+	margin-right: 10px;
+}
+.right-side {
+	display: inline;
+	float: left;
+	position: relative;
+	margin-left: 10px;
+}
+.right-side p {
+	color: rgb(211, 228, 255);
+
+}
+
+.h3mod {
+	color: rgb(211, 228, 255);
 }
 
 
-aside {
-    padding: 1em;
-    background: pink;
-    margin: 10px; 
-
-    display: flex;
-    flex: 1;
+a:link    {color:white; background-color:transparent; text-decoration:none}
+a:visited {color:white; background-color:transparent; text-decoration:none}
+a:hover   {color:red; background-color:transparent; text-decoration:underline}
+a:active  {color:white; background-color:transparent; text-decoration:underline}
 
 
+/* formating mainly for aboutme page */
+
+.container .left-side-1 {
+	width:370px;
+	margin-left: 10px;
 }
-.body aside {
-    padding: 1em;
-    background: #ddd;
-    margin: 10px; 
-
-
-    flex: 1;
-
-
+.container .right-side-1 {
+	width: 550px;
+	margin-right:0;
 }
 
-.body section {
-    padding: 1em;
-    background: green;
-    margin: 10px; 
-
-
-    flex: 3;
+.left-side-1 {
+	display: inline;
+	float: left;
+	position: relative;
+	margin-right: 10px;
 }
+.right-side-1 {
+	display: inline;
+	float: left;
+	position: relative;
+	margin-left: 10px;
+}
+.right-side-1 p {
+	color: rgb(211, 228, 255);
 
+}
