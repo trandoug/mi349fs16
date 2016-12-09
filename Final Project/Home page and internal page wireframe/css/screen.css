@@ -1,0 +1,31 @@
+/* Add your CSS below */
+
+/* Example: adding a background color to the HTML body */
+body {
+  /* #ccc is shorthand HEX for a light grey 
+
+
+  ID IS WITH THE #
+  CLASS WITH THE . */
+  background: #ccc;
+}
+
+section {
+	padding-left: 20px;
+}
+
+p{
+	padding-left: 20px;
+}
+
+
+.space  {
+
+	color: blue;
+}
+#additional_info {
+	background-color: yellow;
+}
+#strike_all {
+	text-decoration: line-through;
+}

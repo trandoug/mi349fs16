@@ -22,7 +22,9 @@ ul {
 }
 body {
   /* #ccc is shorthand HEX for a light grey */
-  background: rgb(98, 132, 188)
+  background: rgb(98, 132, 188);
+	background: -webkit-linear-gradient(rgb(98, 132, 188) );
+	background: -moz-linear-gradient(rgb(98, 132, 188) );
 ;
 }
 
@@ -51,7 +53,8 @@ h3 {
 	width:100%; 
 	/*opacioty */
 	background: rgba(14, 14, 15, .60) ; 
-
+	background: -webkit-linear-gradient(rgba(14, 14, 15, .60) );
+	background: -moz-linear-gradient(rgba(14, 14, 15, .60) );
 }
 
 .main {
@@ -223,6 +226,8 @@ a:active  {color:white; background-color:transparent; text-decoration:underline}
 
 	padding: 1em;
     background: rgb(57, 81, 119);
+    background: -webkit-linear-gradient(rgb(57, 81, 119) );
+	background: -moz-linear-gradient(rgb(57, 81, 119) );
     margin: 10px; 
     border-radius: 10px;
 
@@ -240,9 +245,17 @@ a:active  {color:white; background-color:transparent; text-decoration:underline}
     border: 4px solid rgb(66, 77, 94);
     border-radius: 10px;
     
+
+        opacity: 0.5;
+    transition: 0.3s ease;
+    cursor: pointer;
 }
 
-
+.content img:hover{
+    transform: scale(1.5, 1.5);
+    opacity: 1;
+    
+}
 /* media querys */
 
 
@@ -287,6 +300,8 @@ a:active  {color:white; background-color:transparent; text-decoration:underline}
 		width: 600px;
 		height: 900 auto;
 		background: rgba(14, 14, 15, .60) ; 
+		background: -webkit-linear-gradient(rgba(14, 14, 15, .60) );
+		background: -moz-linear-gradient(rgba(14, 14, 15, .60) );
 		/*background: white;*/
 
 	}
@@ -296,7 +311,9 @@ a:active  {color:white; background-color:transparent; text-decoration:underline}
 
 }
 
-
+.enlarge {
+	height: 400px;
+}
 
 @media (max-width: 414px) {
 
@@ -335,10 +352,18 @@ a:active  {color:white; background-color:transparent; text-decoration:underline}
 	.inner-box{
 	width: 414px;
 	background: rgba(14, 14, 15, .60) ; 
+	background: -webkit-linear-gradient(rgba(14, 14, 15, .60) );
+	background: -moz-linear-gradient(rgba(14, 14, 15, .60) );
 	/*background: white;*/
 
 	}
 	.padding {
 	padding: 0;
+	}
 }
+
+
+.shit {
+	color: red;
 }
+
